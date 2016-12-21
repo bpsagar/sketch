@@ -17,23 +17,30 @@
     font-size: 36px;
     font-weight: 300; }
 
-.window {
-  padding: 40px 0;
+.card-container {
   text-align: center; }
-  .window .window__image {
-    max-width: 80%;
-    max-height: 80vh;
-    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.3);
-    border: 10px solid #FFF; }
-  .window .window__text {
-    padding-top: 40px;
-    font-size: 30px;
-    font-weight: bold; }
+
+.card {
+  margin: 40px 0;
+  display: inline-block;
+  padding: 10px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  max-width: 80%;
+  background-color: #FFF;
+  border-radius: 4px; }
+  .card .card__image {
+    max-width: 100%;
+    max-height: 80vh; }
+  .card .card__text {
+    padding-top: 10px;
+    font-size: 26px;
+    text-align: left; }
 
 body {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
-  color: #222; }
+  color: #222;
+  background-color: #F4F4F4; }
 
 * {
   box-sizing: border-box;
